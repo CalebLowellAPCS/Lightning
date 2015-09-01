@@ -44,5 +44,7 @@ void mousePressed()
 	startY = 150;
 	endX = 0;
 	endY = 150;
+
+	background(0, 0, 0);
 }
 

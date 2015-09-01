@@ -24,7 +24,7 @@ public void setup()
 {
   size(1000,300);
   strokeWeight(1);
-  background(255, 255,255);
+  background(0, 0, 0);
 }
 
 public void draw()
@@ -60,6 +60,8 @@ public void mousePressed()
 	startY = 150;
 	endX = 0;
 	endY = 150;
+
+	background(255, 255, 255);
 }
 
   static public void main(String[] passedArgs) {
